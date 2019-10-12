@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,6 +103,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-example.NewTest" title="example.NewTest" hash-for-method="testEasy">testEasy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example.NewTest" title="example.NewTest" hash-for-method="testEasy1">testEasy1</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-example.NewTest -->
@@ -128,6 +133,13 @@
                   <a name="testEasy">
                   </a> <!-- testEasy -->
                   <span class="method-name">testEasy</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEasy1">
+                  </a> <!-- testEasy1 -->
+                  <span class="method-name">testEasy1</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -183,16 +195,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testEasy')
 data.setCell(0, 2, 'example.NewTest')
-data.setCell(0, 3, 14832);
+data.setCell(0, 3, 15265);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testEasy1')
+data.setCell(1, 2, 'example.NewTest')
+data.setCell(1, 3, 12588);
 window.suiteTableData['example.NewTest']= { tableData: data, tableDiv: 'times-div-example.NewTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <span class="suite-total-time">Total running time: 27 seconds</span>
               <div id="times-div-example.NewTest">
               </div> <!-- times-div-example.NewTest -->
             </div> <!-- times-div -->
@@ -225,11 +241,15 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">testEasy</span>
-                <span class="method-start">3384 ms</span>
+                <span class="method-start">4129 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testEasy1</span>
+                <span class="method-start">19395 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">18218 ms</span>
+                <span class="method-start">31985 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
