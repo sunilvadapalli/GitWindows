@@ -1,4 +1,4 @@
-# java-tomcat-maven-example- CHECKING GIT FETCH
+# java-tomcat-maven-example- CHECKING GIT FETCH - 2
 
 This is an example ready-to-deploy java web application built for Tomcat using Maven and webapp-runner.
 
