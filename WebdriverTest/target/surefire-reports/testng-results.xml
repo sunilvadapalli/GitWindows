@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="example.NewTest" duration-ms="332776" started-at="2019-10-12T16:43:25Z" finished-at="2019-10-12T16:48:58Z">
+  <suite name="example.NewTest" duration-ms="346366" started-at="2019-10-12T17:25:48Z" finished-at="2019-10-12T17:31:34Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="332776" started-at="2019-10-12T16:43:25Z" finished-at="2019-10-12T16:48:58Z">
+    <test name="Command line test" duration-ms="346366" started-at="2019-10-12T17:25:48Z" finished-at="2019-10-12T17:31:34Z">
       <class name="example.NewTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:example.NewTest@49e4cb85]" name="beforeTest" is-config="true" duration-ms="3562" started-at="2019-10-12T22:13:25Z" finished-at="2019-10-12T22:13:29Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:example.NewTest@49e4cb85]" name="beforeTest" is-config="true" duration-ms="4409" started-at="2019-10-12T22:55:48Z" finished-at="2019-10-12T22:55:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testEasy()[pri:0, instance:example.NewTest@49e4cb85]" name="testEasy" duration-ms="14959" started-at="2019-10-12T22:13:29Z" finished-at="2019-10-12T22:13:44Z">
+        <test-method status="PASS" signature="testEasy()[pri:0, instance:example.NewTest@49e4cb85]" name="testEasy" duration-ms="16121" started-at="2019-10-12T22:55:52Z" finished-at="2019-10-12T22:56:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEasy -->
-        <test-method status="FAIL" signature="testEasy1()[pri:0, instance:example.NewTest@49e4cb85]" name="testEasy1" duration-ms="300195" started-at="2019-10-12T22:13:44Z" finished-at="2019-10-12T22:18:44Z">
+        <test-method status="FAIL" signature="testEasy1()[pri:0, instance:example.NewTest@49e4cb85]" name="testEasy1" duration-ms="300055" started-at="2019-10-12T22:56:08Z" finished-at="2019-10-12T23:01:08Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[timeout
   (Session info: chrome=77.0.3865.120)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-KB46RVK', ip: '10.0.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+System info: host: 'DESKTOP-KB46RVK', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:59597}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 66731a97756c2702a4c3290b6ca819eb]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:60315}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cdde6c889945e84bc46112abb38773a8]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: timeout
   (Session info: chrome=77.0.3865.120)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-KB46RVK', ip: '10.0.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+System info: host: 'DESKTOP-KB46RVK', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:59597}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 66731a97756c2702a4c3290b6ca819eb
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:60315}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cdde6c889945e84bc46112abb38773a8
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -86,11 +86,15 @@ Session ID: 66731a97756c2702a4c3290b6ca819eb
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEasy1 -->
-        <test-method status="PASS" signature="testEasy2()[pri:0, instance:example.NewTest@49e4cb85]" name="testEasy2" duration-ms="13389" started-at="2019-10-12T22:18:44Z" finished-at="2019-10-12T22:18:57Z">
+        <test-method status="PASS" signature="testEasy2()[pri:0, instance:example.NewTest@49e4cb85]" name="testEasy2" duration-ms="12493" started-at="2019-10-12T23:01:08Z" finished-at="2019-10-12T23:01:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEasy2 -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:example.NewTest@49e4cb85]" name="afterTest" is-config="true" duration-ms="642" started-at="2019-10-12T22:18:57Z" finished-at="2019-10-12T22:18:58Z">
+        <test-method status="PASS" signature="testEasy3()[pri:0, instance:example.NewTest@49e4cb85]" name="testEasy3" duration-ms="12603" started-at="2019-10-12T23:01:21Z" finished-at="2019-10-12T23:01:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEasy3 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:example.NewTest@49e4cb85]" name="afterTest" is-config="true" duration-ms="642" started-at="2019-10-12T23:01:33Z" finished-at="2019-10-12T23:01:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

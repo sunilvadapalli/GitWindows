@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="1" name="example.NewTest" time="328.552" errors="0" skipped="0">
+<testsuite tests="4" failures="1" name="example.NewTest" time="341.275" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
@@ -63,21 +63,21 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="example.NewTest" name="testEasy" time="14.962"/>
-  <testcase classname="example.NewTest" name="testEasy1" time="300.208">
+  <testcase classname="example.NewTest" name="testEasy" time="16.124"/>
+  <testcase classname="example.NewTest" name="testEasy1" time="300.058">
     <failure message="timeout
   (Session info: chrome=77.0.3865.120)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-KB46RVK&apos;, ip: &apos;10.0.0.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+System info: host: &apos;DESKTOP-KB46RVK&apos;, ip: &apos;10.0.0.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:59597}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 66731a97756c2702a4c3290b6ca819eb" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: timeout
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:60315}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cdde6c889945e84bc46112abb38773a8" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: timeout
   (Session info: chrome=77.0.3865.120)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-KB46RVK&apos;, ip: &apos;10.0.0.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+System info: host: &apos;DESKTOP-KB46RVK&apos;, ip: &apos;10.0.0.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:59597}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 66731a97756c2702a4c3290b6ca819eb
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:60315}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cdde6c889945e84bc46112abb38773a8
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -91,9 +91,10 @@ Session ID: 66731a97756c2702a4c3290b6ca819eb
 	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
 	at example.NewTest.testEasy1(NewTest.java:19)
 </failure>
-    <system-err>[1570898924.249][SEVERE]: Timed out receiving message from renderer: 299.892
-[1570898924.258][SEVERE]: Timed out receiving message from renderer: -0.009
+    <system-err>[1570901468.640][SEVERE]: Timed out receiving message from renderer: 299.890
+[1570901468.647][SEVERE]: Timed out receiving message from renderer: -0.007
 </system-err>
   </testcase>
-  <testcase classname="example.NewTest" name="testEasy2" time="13.382"/>
+  <testcase classname="example.NewTest" name="testEasy2" time="12.49"/>
+  <testcase classname="example.NewTest" name="testEasy3" time="12.603"/>
 </testsuite>
